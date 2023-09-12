@@ -14,6 +14,8 @@ public class Goal : MonoBehaviour
             SceneManager.LoadScene(0);
 
         }
+
         
     }
+
 }

@@ -54,5 +54,9 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(0);
         }
     }
+    public int GetScore()
+    {
+        return Score;
+    }
    
 }
