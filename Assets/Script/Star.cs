@@ -8,10 +8,14 @@ public class Star : MonoBehaviour
     {
         if (other.CompareTag("Player"))
            { 
-            Debug.Log(" you take 100 point");
+            Debug.Log(" you take point");
             Destroy(gameObject, 1f);
 
-           }
-        
+            PlayerController player =  GameObject.FindObjectOfType<PlayerController>();
+            player.Addscore();
+            
+           
+        }
+
     }
 }

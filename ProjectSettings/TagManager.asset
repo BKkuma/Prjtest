@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Goal
   - Star
+  - Key
   layers:
   - Default
   - TransparentFX
