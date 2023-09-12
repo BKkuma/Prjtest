@@ -57,6 +57,10 @@ public class PlayerController : MonoBehaviour
     public int GetScore()
     {
         return Score;
+        
     }
-   
+    public int GetKey()
+    {
+        return Key;
+    }
 }
