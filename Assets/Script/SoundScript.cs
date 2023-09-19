@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class SoundScript : MonoBehaviour
 {
-    [SerializeField] private AudioClip m_Clip;
+    //[SerializeField] private AudioClip m_Clip;
+    [SerializeField] private SoundLibrary  soundLibrary;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,6 @@ public class SoundScript : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        AudioSource.PlayClipAtPoint (m_Clip, transform.position);
+        AudioSource.PlayClipAtPoint (soundLibrary.Coinsound, transform.position);
     }
 }

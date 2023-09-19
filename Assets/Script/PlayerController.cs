@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float rotationSpeed = 30f;
-    [SerializeField] private int Score = 0;
-    [SerializeField] private int Key = 0;
     private Rigidbody rg2d;
+    [SerializeField] private PlayerData playerData;
+    [SerializeField] private SoundLibrary soundLibrary;
 
 
     // Start is called before the first frame update
     private void Start()
     {
-        rg2d= GetComponent<Rigidbody>();
-            
+        rg2d = GetComponent<Rigidbody>();
+        
+        
+
     }
 
     // Update is called once per frame
@@ -41,26 +44,30 @@ public class PlayerController : MonoBehaviour
         }
         rg2d.AddTorque(0, 0, x);
         rg2d.AddTorque(y, 0, 0);
+        
     }
     public void Addscore()
     {
-        Score = Score + 1;
+        playerData.score = playerData.score + 1;
+
+        AudioSource.PlayClipAtPoint (soundLibrary.Coinsound,transform.position);
+        
     }
     public void Addkey()
     {
-        Key = Key + 1; 
-        if (Key== 3) 
+        playerData.key = playerData.key + 1;
+        if (playerData.key == 3)
         {
             SceneManager.LoadScene(0);
         }
     }
     public int GetScore()
     {
-        return Score;
-        
+        return playerData.score;
+
     }
     public int GetKey()
     {
-        return Key;
+        return playerData.key;
     }
-}
+} 

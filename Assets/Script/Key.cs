@@ -26,16 +26,5 @@ public class Key : MonoBehaviour
         PlayerController player = GameObject.FindObjectOfType<PlayerController>();
         player.Addkey();
         
-        
-       
-       
-
-
-
-
-
-
-
-
     }
 }

@@ -123,3 +123,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 8300000, guid: 971f1943934a6af4abd48d3fa4bd4091, type: 3}
+  m_Library: {fileID: 11400000, guid: 880c3568833c76e4ab76addc3d367216, type: 2}

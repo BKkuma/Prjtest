@@ -6,7 +6,8 @@ using UnityEngine;
 public class ScoreText : MonoBehaviour
 {
     [SerializeField] private TMP_Text text;
-    [SerializeField] private  PlayerController player;
+    
+    [SerializeField] private PlayerData playerData;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,7 @@ public class ScoreText : MonoBehaviour
     void Update()
     {
         
-        text.text = player.GetScore().ToString();
+        text.text = playerData.score.ToString();
 
     }
 }

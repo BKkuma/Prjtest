@@ -5,9 +5,8 @@ using UnityEngine;
 
 public class KeyText : MonoBehaviour
 {
-    [SerializeField] private TMP_Text text;
-    [SerializeField] private PlayerController player;
-
+    [SerializeField] private TMP_Text text;   
+    [SerializeField] private PlayerData playerData;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +16,6 @@ public class KeyText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = player.GetKey().ToString();
+        text.text = playerData.key.ToString();
     }
 }
