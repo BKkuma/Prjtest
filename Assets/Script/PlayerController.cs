@@ -58,8 +58,10 @@ public class PlayerController : MonoBehaviour
         playerData.key = playerData.key + 1;
         if (playerData.key == 3)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
+            
         }
+       
     }
     public int GetScore()
     {

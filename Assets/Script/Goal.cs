@@ -11,7 +11,7 @@ public class Goal : MonoBehaviour
          {
 
             Debug.Log("End game");
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
 
         }
 
