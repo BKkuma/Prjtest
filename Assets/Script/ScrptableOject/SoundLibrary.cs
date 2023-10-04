@@ -5,4 +5,5 @@ using UnityEngine;
 public class SoundLibrary : ScriptableObject
 {
     public AudioClip Coinsound;
+    public AudioClip BGMsound;
 }

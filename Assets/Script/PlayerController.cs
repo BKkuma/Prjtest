@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
         playerData.key = playerData.key + 1;
         if (playerData.key == 3)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(1);
             
         }
        
@@ -72,4 +72,6 @@ public class PlayerController : MonoBehaviour
     {
         return playerData.key;
     }
+   
+    
 } 

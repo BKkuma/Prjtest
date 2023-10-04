@@ -20,5 +20,7 @@ public class SoundScript : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         AudioSource.PlayClipAtPoint (soundLibrary.Coinsound, transform.position);
+        AudioSource.PlayClipAtPoint(soundLibrary.BGMsound, transform.position);
+
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NpcController : MonoBehaviour
 {
-    [SerializeField] private int healthPoint = 2;
+    //[SerializeField] private int healthPoint = 2;
     [SerializeField] private Animator animator;
     // Start is called before the first frame update
     void Start()
