@@ -5,5 +5,10 @@ using UnityEngine;
 public class SoundLibrary : ScriptableObject
 {
     public AudioClip Coinsound;
-    public AudioClip BGMsound;
+    public AudioClip Keysound;
+    public AudioClip BGMsoundlevel1and2;
+    public AudioClip BGMmenusound;
+    public AudioClip BGMSelectsound;
+    public AudioClip BGMCreDitsound;
+    public AudioClip BGMsoundlevel3and4;
 }

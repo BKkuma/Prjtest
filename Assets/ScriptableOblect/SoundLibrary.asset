@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dfc579b3d2f5c948b0505895c20ca88, type: 3}
   m_Name: SoundLibrary
   m_EditorClassIdentifier: 
-  Coinsound: {fileID: 8300000, guid: 971f1943934a6af4abd48d3fa4bd4091, type: 3}
+  Coinsound: {fileID: 8300000, guid: b768e81143404504abce03402b012a26, type: 3}
+  Keysound: {fileID: 8300000, guid: 9438de60775d939449a2bb7260cc32d0, type: 3}
+  BGMsoundlevel1and2: {fileID: 8300000, guid: 33ba714b601f8d044b8ee063bcc4df67, type: 3}
+  BGMmenusound: {fileID: 8300000, guid: 4bdbcb997ac594b4784d53de7958b809, type: 3}
+  BGMSelectsound: {fileID: 8300000, guid: 83e24612f9bdd754286768530eb0adc6, type: 3}
+  BGMCreDitsound: {fileID: 8300000, guid: d5a089838c5fe7646964cd2d41c1b46d, type: 3}
+  BGMsoundlevel3and4: {fileID: 8300000, guid: 4449ee683ef960148a154adf698ec649, type: 3}

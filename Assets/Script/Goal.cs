@@ -10,8 +10,8 @@ public class Goal : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
          {
 
-            Debug.Log("End game");
-            SceneManager.LoadScene(3);
+            Debug.Log("Yeah");
+            SceneManager.LoadScene(1);
 
         }
 
